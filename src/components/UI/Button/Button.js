@@ -1,8 +1,8 @@
 import React from 'react';
-import classes from './Button';
+import classes from './Button.css';
 
 const Button = props => (
-  <button onClick={props.clicked} className="Button">
+  <button onClick={props.clicked} className="Button Danger">
     {props.children}
   </button>
 );
